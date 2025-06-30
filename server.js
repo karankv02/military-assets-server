@@ -15,7 +15,7 @@ const prisma = new PrismaClient();
 
 // Middleware
 app.use(cors({
-  origin: procees.env.FRONT_END, // React frontend
+  origin: process.env.FRONT_END, // React frontend
   credentials: true
 }));
 
