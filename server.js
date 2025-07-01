@@ -15,7 +15,7 @@ const prisma = new PrismaClient();
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONT_END, // React frontend
+  origin: 'https://keen-trifle-b51605.netlify.app', // React frontend
   credentials: true
 }));
 
